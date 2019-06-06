@@ -1,18 +1,16 @@
 Messages:
   Prefix: '&7[&6Телепорт&7] '
   Success:
-    Paid: '&aВы были телепортированы &7 x=%x% y=%y% z=%z% за &c$%price%&7 использовали
-      &f%attempts% &7попытку!'
-    Bypass: '&aВы были телепортированы &7 x=%x% y=%y% z=%z% за &f%attempts% &7попытку'
+    Paid: '&aВы были телепортированы &7 x=%x% y=%y% z=%z% за &c$%price%&7!'
+    Bypass: '&aВы были телепортированы &7 x=%x% y=%y% z=%z%'
   Failed:
     Price: '&cНе получилось телепортировать &7Вы должны иметь минимум $%price% &7Для
       телепортирования!'
-    NotSafe: '&cНе удалось найти безопасное место %attempts% попыток! &7Вы небыли
+    NotSafe: '&cНе удалось найти безопасное место  попыток! &7Вы небыли
       телепортированы!'
   Other:
-    Success: '&a%player% был телепортирован to&7 x=%x% y=%y% z=%z% in &f%attempts%
-      &7попыток!'
-    NotSafe: '&cНе удалось найти безопасное место %attempts% попыток! &7Вы небыли
+    Success: '&a%player% был телепортирован to&7 x=%x% y=%y% z=%z%!'
+    NotSafe: '&cНе удалось найти безопасное место! &7Вы небыли
       телепортированы!'
   Reload: '&eПерезагрузка файла кофигурации прошла успешно!'
   NoPermission:
@@ -34,7 +32,7 @@ Titles:
     Subtitle: '&fТелепортация через %time% секунд!'
   Success:
     SendChatMessage: true
-    Title: '&6&6Телепортация!!! &7(%attempts%)'
+    Title: '&6&6Телепортация!!! &7()'
     Subtitle: '&fТелепортация по координатам x=%x% y=%y% z=%z%'
 Help:
   List:
@@ -52,4 +50,5 @@ Sounds:
   Enabled: true
   Delay: entity_tnt_primed
   Success: entity_generic_explode
+
 
